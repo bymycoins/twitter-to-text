@@ -1,0 +1,5 @@
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
+DATA_DIR = '/path/to/public/web/server/directory'
