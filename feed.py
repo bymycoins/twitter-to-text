@@ -24,7 +24,7 @@ def store_contract_info(data_dir, pub1, pub2, fact_id, curr):
     # in theory we might want to write this to a file for pub1 as well in case the user loses their local storage list.
     contract = pub1 + '-' + pub2 + '-' + fact_id + '-' + curr
     #print "storing contract %s" % (contract)
-    fname = data_dir + '/' + pub2 + '.txt'
+    fname = data_dir + '/' + pub2 + ''
     if os.path.isfile(fname):
         with open(fname, 'r') as f:
             for line in f:
